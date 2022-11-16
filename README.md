@@ -1,0 +1,2 @@
+# lottofile
+Lotto File
