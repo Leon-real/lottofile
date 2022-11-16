@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Auto Lottery Raffle</title>
+        <meta property="og:title" content="로또 자동 추첨">
+        <link rel="canonical" href="https://lotto-raffle.netlify.app/">
+        <meta name="description" content="로또 자동 추첨 합니다.">
+        <meta property="og:description" content="로또를 자동으로 추첨해주는 사이트 입니다.">
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+        <py-env>
+            - pandas
+        </py-env>
+        <py-script src="./main.py"></py-script>
+
+        <!-- 광고부분 -->
+        <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5096167520327438" crossorigin="anonymous"></script>
+        <!-- 모달창 -->
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="main.js" async></script>
+
+
+    </head>
+
+    <body>
+        
+        
+        <main class="cotainer h-screen flex flex-col items-center justify-center">
+
+            <p>재미로 해주세요 : )<br></p>
+            <p>===========================</p>
+            <div id="output", class="text-3xl", ></div>
+            <p>===========================</p>
+            <button type="button" id="추첨받기" class="mt-4 p-2 text-white bg-blue-600 rounded" pys-onClick="reTry">로또 추첨받기</button>
+            
+            <!-- 모달창부분
+            <button type='button' id="modal_btn" class="mt-4 p-2 text-white bg-blue-600 rounded">Test</button>
+            <div class="modal_background"></div>
+            <div class="modal_wrap">
+                <div class="modal_close" id="modal_btn" pys-onClick="reTry">닫기 X</div>
+                <ins class="kakao_ad_area" style="display:none;" 
+                data-ad-unit    = "DAN-q27CtokV8getH0QM" 
+                data-ad-width   = "250" 
+                data-ad-height  = "250"></ins>
+            </div> -->
+
+            <a href="https://blog.naver.com/tutmr999">제작자 : Blog</a>
+            <p><br><br><br></p>
+            <!-- 광고 영역 -->
+            <ins class="kakao_ad_area" style="display:none;" 
+                data-ad-unit    = "DAN-o3Zj5hO9cGpTa989" 
+                data-ad-width   = "320" 
+                data-ad-height  = "50"></ins> 
+
+        </main>
+        
+        
+    </body>
+</html>
